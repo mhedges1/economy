@@ -1,0 +1,28 @@
+@import "./node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+
+.stock-selector {
+  width: 100%;
+  table{
+    tr{
+      td{
+        text-transform: uppercase;
+        cursor: hand;
+        cursor: pointer;
+      }
+      td.active {
+        background: lightgray !important;
+      }
+      td:hover {
+        background: lightgray !important;
+      }
+    }
+  }
+}
+
+.stock-detail {
+  .panel-heading {
+    .panel-title{
+      text-transform: uppercase;
+    }
+  }
+}
